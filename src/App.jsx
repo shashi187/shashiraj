@@ -6,6 +6,7 @@ import MouseFollower from './components/MouseFollower'
 import Page3 from './pages/Page3'
 import Page4 from './pages/Page4'
 import Page5 from './pages/Page5'
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
