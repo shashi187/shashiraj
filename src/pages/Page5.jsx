@@ -24,9 +24,9 @@ const Page5 = () => {
   };
 
   return (
-    <div className="p-20" id="contact">
+    <div className="p-2 md:p-20" id="contact">
       <div className="bg-[url(https://t4.ftcdn.net/jpg/05/04/78/25/360_F_504782581_LHwsDbXlrFiiadWC4i15yV2lhbJnB8g0.jpg)] rounded-4xl p-10 bg-cover bg-center text-white">
-        <div className="max-w-xl mx-auto px-4 py-8 ">
+        <div className="max-w-2xl mx-auto px-4 py-8 ">
         <h2 className="text-[4vw] font-[anzo] mb-6 text-center">
           Get In Touch
         </h2>

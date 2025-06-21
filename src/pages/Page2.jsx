@@ -21,7 +21,7 @@ const Page2 = () => {
   })
   
   return (
-    <div className='bg-white text-black overflow-hidden pb-20 pt-5'>
+    <div className='bg-white text-black overflow-hidden pb-20 pt-6 md:pt-6'>
       <h3 className='font-[anzo] text-xl pb-12 text-center text-gray-400'>© Shashiraj 2025</h3>
       <div className='rotateText'>
         <h1 className='font-[anzo] text-[20vw] leading-[18vw] text-center font-extrabold'>TURNING</h1>
@@ -35,7 +35,7 @@ const Page2 = () => {
       <div className='rotateText'>
         <h1 className='font-[anzo] text-[20vw] leading-[18vw] text-center font-bold'>IMPACT!</h1>
       </div>
-      <div className='h-1 w-1/3 mx-auto bg-black mt-10'></div>
+      <div className='h-1 w-1/3 mx-auto bg-black mt-10 md:mb-20' ></div>
     </div>
   )
 }
