@@ -21,8 +21,8 @@ const Page2 = () => {
   })
   
   return (
-    <div className='bg-white text-black overflow-hidden p-20'>
-      <h3 className='font-[anzo] text-xl p-12 text-center text-gray-400'>© Shashiraj's Portfolio 2025</h3>
+    <div className='bg-white text-black overflow-hidden pb-20 pt-5'>
+      <h3 className='font-[anzo] text-xl pb-12 text-center text-gray-400'>© Shashiraj 2025</h3>
       <div className='rotateText'>
         <h1 className='font-[anzo] text-[20vw] leading-[18vw] text-center font-extrabold'>TURNING</h1>
       </div>

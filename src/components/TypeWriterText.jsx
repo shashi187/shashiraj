@@ -31,7 +31,7 @@ const TypewriterText = ({ words, typingSpeed = 150, deletingSpeed = 75, delay = 
   }, [text, isDeleting, wordIndex, words, typingSpeed, deletingSpeed, delay]);
 
   return (
-    <span className="font-bold text-[4.5vw] text-blue-600">
+    <span className="font-bold text-[10vw] md:text-[7vw] text-blue-600">
       {text}
       <span className="animate-blink">|</span>
     </span>
