@@ -3,8 +3,8 @@ import React from "react";
 const Page3 = () => {
   return (
    <div className="md:p-10 w-full h-auto" id="about">
-    <div className="bg-blue-400 h-full text-white ">
-      <p className="font-[anzo] text-[7vw] text-center -mt-12 p-6 text-white ">About Me</p>
+    <div className="bg-gradient-to-r from-gray-100 to-blue-300 h-full text-white rounded-2xl">
+      <p className="font-[anzo] text-[7vw] text-center -mt-12 px-6 text-white ">About Me</p>
       <div className="rounded-4xl h-full flex">
         <svg className="hidden md:block w-[40%] lg:h-[80%]" width="700" height="700" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
           {/* <!-- Central pad: large rounded oval --> */}
@@ -27,7 +27,7 @@ const Page3 = () => {
           <p  className="text-[4.5vw] md:text-[2.5vw] md:pb-5 lg:text-[1.8vw] font-[anzo]">
 I'm passionate about building dynamic web applications with a strong backend and an intuitive frontend. I specialize in the MERN stack—MongoDB, Express.js, React, and Node.js—to craft scalable, efficient, and user-focused solutions.
 
-I'm currently pursuing a Bachelor of Technology in Computer Science at Delhi Technological University (DTU), with an expected graduation in 2028. I'm always looking for ways to improve, explore new technologies, and take on exciting challenges.
+I'm currently pursuing a Bachelor of Technology at Delhi Technological University (DTU), with an expected graduation in 2028. I'm always looking for ways to improve, explore new technologies, and take on exciting challenges.
 
 <br/> <span className="font-bold text-black">Have an idea or project in mind? Let’s build something great together.</span></p>
         </div>

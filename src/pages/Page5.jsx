@@ -9,7 +9,7 @@ const Page5 = () => {
     const form = e.target;
     const formData = new FormData(form);
 
-    const response = await fetch("https://formspree.io/f/mqaqlnoy", {
+    const response = await fetch("https://formspree.io/f/movwpjnn", {
       method: "POST",
       body: formData,
       headers: {
