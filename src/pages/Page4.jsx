@@ -22,11 +22,11 @@ const Page4 = () => {
             </div>
         </div>
         <div className="lg:w-1/3 flex justify-center items-center gap-2 flex-col bg-gray-100 p-4 m-1 mt-5 md:mt-0 rounded-lg shadow-lg">
-            <h2 className="text-2xl font-semibold mt-4 font-[anzo]">Item Paste App</h2>
-            <p className="mt-2 ">Item Paste App is a simple web application that allows users to paste and share text snippets easily. Built with React, it features a clean and intuitive interface, making it easy for users to manage their pasted items. The app is designed to be lightweight and fast, focusing on the core functionality without unnecessary bloat.</p>
+            <h2 className="text-2xl font-semibold mt-4 font-[anzo]">LeaderBoard Web</h2>
+            <p className="mt-2 ">Leaderboard Web: A Competitive Point Tracker - is a dynamic, single-page web application designed to foster friendly competition and track user performance. It allows users to be added to a system where they can claim random points to climb a real-time, global leaderboard. The goal was to build a basic full stack web app using React (VIte) and a robust express.js + node.js backend to manage user data, point randomization logic, and persistent ranking.</p>
             <div className="flex gap-2 mt-4">
-              <a href="https://paste-app-opal-six.vercel.app" target="blank"><button className="border px-2 rounded-xl bg-green-400 font-[anzo] py-1">View Live</button></a>
-              <a href="https://github.com/shashi187/paste-app" target="blank"><button className="border px-2 rounded-xl bg-blue-400 font-[anzo] py-1">View Code</button></a>
+              <a href="https://leaderboard-frontend-amber.vercel.app/" target="blank"><button className="border px-2 rounded-xl bg-green-400 font-[anzo] py-1">View Live</button></a>
+              <a href="https://github.com/shashi187/leaderboardFrontend" target="blank"><button className="border px-2 rounded-xl bg-blue-400 font-[anzo] py-1">View Code</button></a>
             </div>
         </div>
       </div>
