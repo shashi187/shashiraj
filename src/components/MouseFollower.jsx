@@ -41,18 +41,16 @@ const MouseFollower = ({ children }) => {
 
   return (
     <>
-      {/* Your App Content */}
       {children}
 
-      {/* Follower elements (rendered globally) */}
       <div
         ref={ringRef}
-        className="fixed w-10 h-10 border-2 border-black rounded-full pointer-events-none z-[9999]"
+        className="fixed overflow-clip w-10 h-10 border-2 border-purple-400 rounded-full pointer-events-none z-[9999]"
         style={{ left: 0, top: 0 }}
       />
 
       <div
-        className="fixed w-2 h-2 bg-black rounded-full pointer-events-none z-[9999]"
+        className="fixed overflow-clip w-2 h-2 bg-purple-400 rounded-full pointer-events-none z-[9999]"
         style={{
           left: dotPos.x - 4,
           top: dotPos.y - 4,
