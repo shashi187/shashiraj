@@ -1,7 +1,7 @@
 import React from 'react'
 import TypewriterText from './TypeWriterText'
 import { FiDownload } from "react-icons/fi";
-import resume from '../assets/shashirajWD.pdf'
+import resume from '../assets/ShashirajWD.pdf'
 const HeroText = () => {
   return (
     <div className='overflow-hidden' >

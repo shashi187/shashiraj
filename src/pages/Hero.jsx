@@ -5,7 +5,7 @@ import ParticleBackground from '../components/ParticleBackground'
 import blackhole from '../assets/blackhole.webm'
 import TypewriterText from '../components/TypeWriterText'
 import { FiDownload } from 'react-icons/fi'
-import resume from '../assets/shashirajWD.pdf'
+import resume from '../assets/ShashirajWD.pdf'
 const userIsMobile = (query = '(max-width: 639px)') => {
     const [isMobile, setIsMobile] = React.useState(
         typeof window !== 'undefined' && window.matchMedia(query).matches
